@@ -3,7 +3,7 @@ from chessboard import display
 import pygame as p
 import time
 
-board = c.Board('8/1P6/8/5k2/8/3K4/7p/8 w - - 0 1')
+board = c.Board()
 display.start(board.fen())
 running = True
 Move = 'a'
